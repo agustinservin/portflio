@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="menu.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="home" class="seccion1">
+        <div style="height: 60px;">
+        <nav class="nav-menu">
+            <i onclick="mostrarmenu()" class="fa-solid fa-bars"></i>    
+            <ul id="menu">
+                <div class="contain-xmark">
+                    <i onclick="cerrarmenu()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="ul-content">
+                    <a href="#home"><li onclick="cerrarmenu()"> HOME </li></a>
+                    <a href="#home"></a><li onclick="cerrarmenu()"> ABOUT </li></a>
+                    <a href="#home"></a><li onclick="cerrarmenu()"> PROJECTS </li></a>
+                    <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn">Download CV</button></a>
+                </div>
+                <div class="redes">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </ul>
+        </nav>
+        </div>
+        <div class="container-myinfo">
+        <div class="container-img">
+            <div class="myinfo-img animate__animated animate__flipInY">
+            </div>
+        </div>
+        <div class="presentation"><div class="title-myinfo">
+            <h2 class="animate__animated animate__zoomIn">Agustín Servín</h2>
+            <h3 class="animate__animated animate__zoomIn">Web Developer</h3>
+        </div> <p class="animate__animated animate__zoomIn">Hey! I'm Agustín, I'm a Junior fullstack developer. Welcome to my website, you can download my CV by clicking on the button</p>
+        <div class="myinfo-button">
+        <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn animate__animated animate__zoomIn">Download CV</button></a></div>
+    </div>
+        </div>
+    </section>
+    <section class="seccion2">
+        <div class="title-projects">
+            <h2>PROJECTS</h2>
+            <div class="underline"></div>
+            <span><p>here you will see all my works and you'll have access to the code with the github link</p></span>
+        </div>
+        <div class="container-projects">
+
+        </div>
+    </section>
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="tecnologias">
+            <h3>-PHP</h3>
+            <h3>-MYSQL</h3>
+            <h3>-POO</h3>
+            <h3>-HTML</h3>
+            <h3>-CSS</h3>
+            <h3>-GIT</h3>
+            <h3>-MVC</h3>
+            <h3>-BOOTSTRAP</h3>
+            <h3>-SQL</h3>
+            <h3>-JAVASCRIPT</h3>
+        </div>
+    </div>
+</body>
+</html>
