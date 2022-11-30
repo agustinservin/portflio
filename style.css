@@ -181,23 +181,19 @@ i{
 /*seccion 2*/
 .seccion2{
     min-height: 100vh;
-    background: #181818;
 }
 .title-projects{
     text-align: center;
     padding: 20px;
 }
-.title-projects h2{
-   font-size: 3rem;
-   font-weight: 100;
-   padding: 10px;
-   font-family:'Times New Roman', Times, serif;
-   color: white;
-   letter-spacing: 0.5rem;
+.title-projects h3{
+   font-size: 1.3rem;
+   font-weight: 800;
+   letter-spacing: normal;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .title-projects p{
-    font-size: 1.5rem;
-    color: wheat;
+    font-size: 1.1rem;
     padding: 20px;
 }
 .underline{
