@@ -24,8 +24,8 @@
                 </div>
                 <div class="ul-content">
                     <a href="#home"><li onclick="cerrarmenu()"> HOME </li></a>
-                    <a href="#home"></a><li onclick="cerrarmenu()"> ABOUT </li></a>
-                    <a href="#home"></a><li onclick="cerrarmenu()"> PROJECTS </li></a>
+                    <a href="#home"><li onclick="cerrarmenu()"> ABOUT </li></a>
+                    <a href="#projects"><li onclick="cerrarmenu()"> PROJECTS </li></a>
                     <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn">Download CV</button></a>
                 </div>
                 <div class="redes">
@@ -45,13 +45,13 @@
         <div class="presentation"><div class="title-myinfo">
             <h2 class="animate__animated animate__zoomIn">Agustín Servín</h2>
             <h3 class="animate__animated animate__zoomIn">Web Developer</h3>
-        </div> <p class="animate__animated animate__zoomIn">Hey! I'm Agustín, I'm a Junior fullstack developer. Welcome to my website, you can download my CV by clicking on the button</p>
+        </div> <p class="animate__animated animate__zoomIn">Hey there! I'm Agustín, I'm a Junior fullstack developer. Welcome to my website, you can download my CV by clicking on the button</p>
         <div class="myinfo-button">
         <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn animate__animated animate__zoomIn">Download CV</button></a></div>
     </div>
         </div>
     </section>
-    <section class="seccion2">
+    <section class="seccion2" id="projects">
         <div class="title-projects">
             <h3>My work</h3>
             <p>Here are some projects I've worked on</p>
@@ -62,8 +62,13 @@
                     <h1>Titulo Del Proyecto</h1>
                     <span><p>Descripcion corta del proyecto</p></span>
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="img-project">
+                        <img src="imagenes/project1.png">
+                </div>
+                <div class="container-projectbtn">
+                    <a href="https://github.com/agustinservin/concesionaria2" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
+
+                    <a href="#"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
                 </div>
             </div>
         </div>

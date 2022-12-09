@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     text-decoration-line: none;
+    max-width: 100%;
 }
 html{
     scroll-behavior: smooth;
@@ -27,6 +28,7 @@ i{
     top: 0;
     padding: 10px;
     display:block;
+    background-color:rgba(0,0,0,.5);
     z-index: 1000;
 }
 /*contenedor de etiquetas li en el menu*/
@@ -195,6 +197,45 @@ i{
 .title-projects p{
     font-size: 1.1rem;
     padding: 20px;
+}
+.container-projects{
+    
+}
+.img-project{
+    width: 100%;
+    border-radius: 1rem;
+}
+.img-project img{
+    border-radius: 1rem;
+    width: 100%;
+}
+.project{
+    margin: auto;
+    padding: 10px;
+    border-radius: 1rem;
+    text-align: center;
+}
+.title-project h1{
+    font-size: 2.4rem;
+}
+.title-project{
+    padding: 20px;
+}
+.container-projectbtn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.github-btnproject{
+    width: 13rem;
+    margin: 3px;
+    background-color: rgba(48, 49, 48, 0.931);
+}
+.link-btnproject{
+    width: 13rem;
+    margin: 3px;
+    background-color: rgb(9, 226, 117);
 }
 .underline{
     background-color:rgba(42, 255, 149, 0.907);
