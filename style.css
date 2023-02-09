@@ -7,6 +7,7 @@
     text-decoration-line: none;
     max-width: 100%;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -16,7 +17,7 @@ i{
 .seccion1{
     min-height: 90vh;
     height: auto;
-    background:linear-gradient(to top, rgba(0,0,0,.5),rgba(0,0,0,.7) ), url('imagenes/banner3.jpg');
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.77),rgba(0,0,0,.99) ), url('imagenes/banner2.jpg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -37,7 +38,7 @@ i{
     position: fixed;
     top: 0;
     left: -110%;
-    width: 25%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -126,28 +127,6 @@ i{
     background-position: center;
     image-resolution:300dpi;
 }
-.skills{
-    margin: 20px 20px 20px;
-}
-.skills h2{
-    font-size: 2.9rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#ededed;
-    font-style: italic;
-}
-.tecnologias{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    color: violet;
-    text-align: center;
-}
-.tecnologias h3{
-    margin: 5px;
-    font-size: 1.6rem;
-}
 /*Agustin Servin titulo*/
 .title-myinfo{
     text-align: center;
@@ -156,19 +135,21 @@ i{
     color: white;
     padding: 10px;
 }
-.title-myinfo h2, .title-myinfo h3{
+.title-myinfo h2{
     padding: 10px;
+    color: beige;
 }
 .title-myinfo h3{
+    padding: 10px;
     font-style: italic;
-    color: goldenrod;
+    color: rgb(226, 51, 51);
 }
 .presentation p{
     font-size: 1.6rem;
     padding: 10;
     margin: 20px 20px;
     font-weight: bold;
-    color: gray;
+    color:gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .myinfo-button button{
@@ -183,20 +164,27 @@ i{
 /*seccion 2*/
 .seccion2{
     min-height: 100vh;
+    background-color: rgb(15, 15, 15);
+    color: white;
 }
 .title-projects{
     text-align: center;
     padding: 20px;
 }
 .title-projects h3{
-   font-size: 1.3rem;
+   font-size: 2.5rem;
    font-weight: 800;
-   letter-spacing: normal;
+   font-style: oblique;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .title-projects p{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 20px;
+    color: orange;
+}
+#pcolor{
+    color: blueviolet;
+    font-style: italic;
 }
 .container-projects{
     
@@ -216,7 +204,10 @@ i{
     text-align: center;
 }
 .title-project h1{
-    font-size: 2.4rem;
+    font-size: 4rem;
+}
+.title-project span{
+    color:grey;
 }
 .title-project{
     padding: 20px;
