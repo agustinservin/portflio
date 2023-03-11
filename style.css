@@ -26,8 +26,8 @@ i {
 .seccion1 {
   min-height: 90vh;
   height: auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.77)), to(rgba(0, 0, 0, 0.99))), url("imagenes/banner2.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.99)), url("imagenes/banner2.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.5))), url("imagenes/banner2.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("imagenes/banner2.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -258,7 +258,7 @@ i {
 .title-myinfo h3 {
   padding: 10px;
   font-style: italic;
-  color: #e23333;
+  color: orangered;
 }
 
 .presentation p {
@@ -290,7 +290,6 @@ i {
 .title-projects {
   text-align: center;
   padding: 10px;
-  border-style: dashed;
 }
 
 .title-projects h3 {
@@ -312,7 +311,6 @@ i {
 }
 
 .container-projects {
-  border-style: dashed;
   padding: 0;
 }
 
@@ -331,6 +329,8 @@ i {
   padding: 10px;
   border-radius: 1rem;
   text-align: center;
+  border-top-style: groove;
+  border-color: darkviolet;
 }
 
 .project .title-project {
@@ -339,6 +339,7 @@ i {
 
 .project .title-project h1 {
   font-size: 4rem;
+  color: gray;
 }
 
 .project .title-project span {
@@ -391,7 +392,11 @@ body.light .seccion2 {
   background-color: white;
 }
 
-body.light .seccion2 h2, body.light .seccion2 h3, body.light .seccion2 h1 {
+body.light .seccion2 .title-project h1 {
+  color: black;
+}
+
+body.light .seccion2 .title-projects h3 {
   color: black;
 }
 /*# sourceMappingURL=style.css.map */

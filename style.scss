@@ -20,7 +20,7 @@ i{
 .seccion1{
     min-height: 90vh;
     height: auto;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.77),rgba(0,0,0,.99) ), url('imagenes/banner2.jpg');
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.4),rgba(0,0,0,.5) ), url('imagenes/banner2.jpg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -203,7 +203,7 @@ i{
     h3{
     padding: 10px;
     font-style: italic;
-    color: rgb(226, 51, 51);
+    color: orangered;
     }
 }
 .presentation p{
@@ -232,7 +232,6 @@ i{
 .title-projects{
     text-align: center;
     padding: 10px;
-    border-style: dashed;
     h3{
         font-size: 2.5rem;
         font-weight: 800;
@@ -250,26 +249,28 @@ i{
     font-style: italic;
 }
 .container-projects{
-    border-style: dashed;
     padding: 0;
 }
 .img-project{
     width: 100%;
     border-radius: 1rem;
-}
-.img-project img{
-    border-radius: 1rem;
-    width: 100%;
+    img{
+        border-radius: 1rem;
+        width: 100%;
+    }
 }
 .project{
     margin: auto;
     padding: 10px;
     border-radius: 1rem;
     text-align: center;
+    border-top-style: groove;
+    border-color: darkviolet;
     .title-project{
         padding: 20px;
         h1{
             font-size: 4rem;
+            color:gray;
         }
         span{
             color:grey;
@@ -312,8 +313,15 @@ body.light{
     }
     .seccion2{
         background-color: white;
-        h2,h3,h1{
-            color: black;
+        .title-project{
+            h1{
+                color: black;
+            }
+        }
+        .title-projects{
+            h3{
+                color: black;
+            }
         }
     }
 }
