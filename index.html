@@ -10,7 +10,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <script src="menu.js"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +20,13 @@
             <i onclick="mostrarmenu()" class="fa-solid fa-bars"></i>    
             <ul id="menu">
                 <div class="contain-xmark">
-                    <i onclick="cerrarmenu()" class="fa-solid fa-xmark"></i>
+                    <div class="x">
+                    <i id="xmark" onclick="cerrarmenu()" class="fa-solid fa-xmark"></i>
+                    </div>
+                    <button class="switch" id="switch">
+                        <span><i class="fa-solid fa-sun"></i></span>
+                        <span><i class="fa-solid fa-moon"></i></span>
+                    </button>
                 </div>
                 <div class="ul-content">
                     <a href="#home"><li onclick="cerrarmenu()"> HOME </li></a>
@@ -29,10 +35,10 @@
                     <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn">Download CV</button></a>
                 </div>
                 <div class="redes">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"target="_blank"></i></a>
+                    <a href="https://github.com/agustinservin/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/agust%C3%ADn-serv%C3%ADn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </ul>
         </nav>
@@ -44,8 +50,8 @@
         </div>
         <div class="presentation"><div class="title-myinfo">
             <h2 class="animate__animated animate__zoomIn">Agustín Servín</h2>
-            <h3 class="animate__animated animate__zoomIn">Web Developer</h3>
-        </div> <p class="animate__animated animate__zoomIn">Hey there! I'm Agustín, a Junior developer from Argentina. I graduated as a Programming Technician at 'EEST N 5'. Welcome to my website, you can download my CV by clicking on the button</p>
+            <h3 class="animate__animated animate__zoomIn">Jr. Web Developer</h3>
+        </div> <p class="animate__animated animate__zoomIn">Hey there! I'm Agustín, a developer from Argentina. I graduated as a Programming Technician at 'EEST N 5'. Welcome to my website, you can download my CV by clicking on the button</p>
         <div class="myinfo-button">
         <a download href="CV.pdf" onclick="cerrarmenu()"><button class="btn animate__animated animate__zoomIn">Download CV</button></a></div>
     </div>
@@ -65,13 +71,33 @@
                             Completion Date:<p id="pcolor">Currently</p>
                             Description: <p>This project was a homework for my school "EEST N 5" where I graduated as "Técnico en Programacion". This dealership has a management website in a separate URL with login where the admin add, modify and delete the content of it
                             </span>
-                    
+                            
                 </div>
                 <div class="img-project">
                         <img src="imagenes/project1.png">
                 </div>
                 <div class="container-projectbtn">
                     <a href="https://github.com/agustinservin/concesionaria2" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
+
+                    <a href="#"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="title-project">
+                    <h1>Street Artist Web</h1>
+                    <span>Technologies used: <p id="pcolor">HTML, CSS & Javascript</p>
+                            Init Date:<p id="pcolor">1/9/2022</p>
+                            Completion Date:<p id="pcolor">Currently</p>
+                            Description: <p>This project was a homework for my school "EEST N 5" where I graduated as "Técnico en Programacion". This dealership has a management website in a separate URL with login where the admin add, modify and delete the content of it
+                            </span>
+                    
+                </div>
+                <div class="img-project">
+                        <img src="imagenes/toto.png">
+                </div>
+                <div class="container-projectbtn">
+                    <a href="https://github.com/agustinservin/totobeatbox" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
 
                     <a href="#"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
                 </div>
@@ -95,5 +121,6 @@
         </div>
     </div>
 -->
+<script src="menu.js"></script>
 </body>
 </html>
