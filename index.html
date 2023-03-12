@@ -7,26 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link
+
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 
     <title>Document</title>
 </head>
-<body>
+<body class="light hidden">
+    <div class="centrado" id="loader">
+    <div class="loadingio-spinner-double-ring-0h1e8tivh0fd"><div class="ldio-28yrnfdlbs7">
+        <div></div>
+        <div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        </div></div>
+    </div>
     <section id="home" class="seccion1">
         <div style="height: 60px;">
-        <nav class="nav-menu">
-            <i onclick="mostrarmenu()" class="fa-solid fa-bars"></i>    
+        <nav id="nav-menu" class="nav-menu menu-hidden">
+            <span onclick="mostrarmenu()"><i class="fa-solid fa-laptop-code"></i>MENU</span>
             <ul id="menu">
                 <div class="contain-xmark">
                     <div class="x">
                     <i id="xmark" onclick="cerrarmenu()" class="fa-solid fa-xmark"></i>
                     </div>
-                    <button class="switch" id="switch">
-                        <span><i class="fa-solid fa-sun"></i></span>
-                        <span><i class="fa-solid fa-moon"></i></span>
-                    </button>
+
                 </div>
                 <div class="ul-content">
                     <a href="#home"><li onclick="cerrarmenu()"> HOME </li></a>
@@ -41,6 +47,10 @@
                     <a href="https://www.linkedin.com/in/agust%C3%ADn-serv%C3%ADn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </ul>
+            <span>Modo <button class="switch" id="switch">
+                <span><i class="fa-solid fa-sun"></i></span>
+                <span><i class="fa-solid fa-moon"></i></span>
+            </button></span>
         </nav>
         </div>
         <div class="container-myinfo">
@@ -57,9 +67,9 @@
     </div>
         </div>
     </section>
-    <section class="seccion2" id="projects">
+    <section class="seccion3" id="projects">
         <div class="title-projects">
-            <h3>My work</h3>
+            <h3>My projects</h3>
             <p>Here are some projects I've worked on</p>
         </div>
         <div class="container-projects">
@@ -68,16 +78,16 @@
                     <h1>Dealership</h1>
                     <span>Technologies used: <p id="pcolor">PHP, MYSQL, GIT, POO, MVC, HTML, CSS</p>
                             Init Date:<p id="pcolor">1/9/2022</p>
-                            Completion Date:<p id="pcolor">Currently</p>
+                            Completion Date:<p id="pcolor">Working</p>
                             Description: <p>This project was a homework for my school "EEST N 5" where I graduated as "Técnico en Programacion". This dealership has a management website in a separate URL with login where the admin add, modify and delete the content of it
                             </span>
                             
                 </div>
                 <div class="img-project">
-                        <img src="imagenes/project1.png">
+                        <img src="imagenes/concesionariaProject.jpg">
                 </div>
                 <div class="container-projectbtn">
-                    <a href="https://github.com/agustinservin/concesionaria2" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
+                    <a href="https://github.com/agustinservin/concesionaria2/tree/develop" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
 
                     <a href="#"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
                 </div>
@@ -88,7 +98,7 @@
                     <h1>Street Artist Web</h1>
                     <span>Technologies used: <p id="pcolor">HTML, CSS & Javascript</p>
                             Init Date:<p id="pcolor">1/9/2022</p>
-                            Completion Date:<p id="pcolor">Currently</p>
+                            Completion Date:<p id="pcolor">30/09/2022</p>
                             Description: <p>This project was a homework for my school "EEST N 5" where I graduated as "Técnico en Programacion". This dealership has a management website in a separate URL with login where the admin add, modify and delete the content of it
                             </span>
                     
@@ -99,7 +109,7 @@
                 <div class="container-projectbtn">
                     <a href="https://github.com/agustinservin/totobeatbox" target="_blank"><button class="btn github-btnproject"><i class="fa-brands fa-github"></i> See Code </button></a>
 
-                    <a href="#"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
+                    <a href="https://agustinservin.github.io/totobeatbox/" target="_blank"><button class="btn link-btnproject"><i class="fa-solid fa-link"></i> Project Link</button></a>
                 </div>
             </div>
         </div>
@@ -121,6 +131,9 @@
         </div>
     </div>
 -->
-<script src="menu.js"></script>
+
+<script src="menu.js"></script>}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </body>
 </html>
